@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Content Example</title>
+</head>
+<body>
+  <h2>Question 1</h2>
+
+  <div id="myElement">
+    <p id="myParagraph">Welcome to my website!</p>
+  </div>
+
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("myParagraph").innerHTML = "Hello there!";
+    }
+  </script>
+</body>
+</html>
